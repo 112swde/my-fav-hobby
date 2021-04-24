@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 22%, rgba(252, 70, 107, 1) 67%);
+    background-repeat: no-repeat;
+}
+
+img {
+    border-radius: 50%;
+    width: 350px;
+    transition: transform .2s;
+}
+
+#p1 {
+    font-size: 50;
+
+}
+
+.menu {
+    position: fixed;
+    list-style: none;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+.parallax-inner {
+    background-color: aquamarine;
+}
+
+#img {
+    transition: transform .2s;
+    border: 10px;
+}
+
+#img:hover {
+    transform: scale(0.9);
+}
